@@ -167,20 +167,42 @@ h1 span{
         margin: 20px auto;
     }
     #area-postagens{
-        max-width: 350px;
+        max-width: 340px;
         float: left;
     
     }
     .postagem img{
-        max-width: 320px;
+        max-width: 310px;
         border-radius: 5px;
     }
     #area-lateral{
-        max-width: 120px;
+        max-width: 140px;
         float: right;
         background-color: #fff;
     
     
     }  
 }
-/*  */
+@media only screen and (max-width: 600px){
+    #area-principal{
+        max-width: 300px;
+        margin: 20px auto;
+    }
+    #area-postagens{
+        width: 100%;
+        float: none;
+    
+    }
+    .postagem img{
+        max-width: 270px;
+        border-radius: 5px;
+    }
+    #area-lateral{
+        width: 100%;
+        float: none;
+        background-color: #fff;
+    }  
+    .conteudo-lateral{
+        width: 300px;
+    }
+}
